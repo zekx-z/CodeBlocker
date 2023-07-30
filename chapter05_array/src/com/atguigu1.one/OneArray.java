@@ -34,8 +34,31 @@ public class OneArray {
 
         //动态初始化
         String[] foods = new String[4];
+        foods[0] = "拌海蜇";
 
 
-        System.out.println(prices[1]);
+        for (int i = 0; i < prices.length; i++) {
+            System.out.println(prices[i]);
+        }
+
+        //数组元素的默认初始化值
+        byte[] arrByte=new byte[3];
+        System.out.println("arrByte:"+arrByte[0]);
+        short[] arrShort = new short[3];
+        System.out.println("arrShort:"+arrShort[0]);
+        int []arrInt = new int[3];
+        System.out.println("arrInt:"+arrInt[0]);
+        long[] arrLong = new long[3];
+        System.out.println("arrLong:"+arrLong[0]);
+        float[] arrFloat = new float[3];
+        System.out.println("arrFloat:"+arrFloat[0]);
+        double[] arrDouble =new double[3];
+        System.out.println("arrDouble:"+arrDouble[0]);
+        char[] arrChar= new char[3];
+        System.out.println("arrChar:"+arrChar[0]);
+        boolean[] arrBoolean =new boolean[3];
+        System.out.println("arrBoolean:"+arrBoolean[0]);
+        String[] arrString=new String[3];
+        System.out.println("arrString:"+arrString[0]);
     }
 }
