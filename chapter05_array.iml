@@ -2,6 +2,8 @@
 <module version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$/chapter05_array">
+      <sourceFolder url="file://$MODULE_DIR$/chapter05_array/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter05_array/src/com/atguigu.two" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/chapter05_array/src/com/atguigu1.one" isTestSource="false" />
     </content>
   </component>
